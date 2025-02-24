@@ -39,7 +39,7 @@ Share the repository link in the space provided below.
 
 
 
-# WORK DONE :-
+## WORK DONE :-
 In this session we where taught how to make a use git commands , statging, branching , pulling etc.
 ---
 ### created :-
