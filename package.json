@@ -16,5 +16,5 @@
     "url": "https://github.com/Azino9/E-commerce/issues"
   },
   "homepage": "https://github.com/Azino9/E-commerce#readme",
-  "description": ""
+  "description": "This is a mentor-guided project to build a full-fledged **E-commerce application** using the **MERN stack** (**MongoDB, Express.js, React.js, and Node.js**). The application includes features such as **user authentication, product management, order handling, and secure payment processing**."
 }

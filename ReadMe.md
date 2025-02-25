@@ -48,3 +48,38 @@ Frontend and public file inside it ,
 
 has a package.json file.
 ---
+
+# FOLLOW-ALONG MILESTONE - 2
+
+## Task Instructions:-
+
+ - Use the same GitHub repository created during Milestone 1: Ecommerce-Follow-Along.
+ - If you haven’t done so already, ensure it is initialized with a README file.
+ - Complete the code along for the Login Page.
+ - Update the README file in the root of the repository
+ - Include a section titled Milestone 2: Project Setup and Login Page that summarizes what was achieved in this milestone.
+ - Ensure all changes are committed and pushed to your GitHub repository.
+ - Share the repository link in the space provided below.
+
+ ## WORK DONE :- 
+ - Installed tailwind css :-
+   - npm init
+   - cd Frontend
+   - (npm create vite@latest . ) command.
+   - Assigned Name of pacakge , selected framework --> React , variant --> javascript .
+   - Did npm i ,
+   - then npm install tailwindcss @tailwindcss/vite
+   - edited vite.config.js file in Frontend folder :-
+     - Added -->
+      - import taiwlindcss from '@tailwindcss/vite' , Added tailwindcss() in plugins :-
+        - export default defineConfig ({
+                  plugins: [react(),tailwindcss()],
+             })
+
+   - Deleted content in index.css inside "src" ,and added (@import  "@tailwindcss")
+   - Deleted content in app.css inside "src"
+   - edited index.html file .
+     - Added <link rel="stylesheet" href="/src/index.css"> inside <head tag>
+     - Added <h1> hello World ! insidebody
+  - Created a simple server.
+   
